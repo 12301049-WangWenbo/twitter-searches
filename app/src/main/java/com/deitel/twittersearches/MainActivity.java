@@ -84,7 +84,7 @@ public class MainActivity extends ListActivity
                tagEditText.getText().toString());
             queryEditText.setText(""); // clear queryEditText
             tagEditText.setText(""); // clear tagEditText
-            
+
             ((InputMethodManager) getSystemService(
                Context.INPUT_METHOD_SERVICE)).hideSoftInputFromWindow(
                tagEditText.getWindowToken(), 0);  
